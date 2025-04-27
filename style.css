@@ -1,0 +1,117 @@
+body {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  iframe {
+    border: 2px solid #dee2e6;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+  }
+  
+  fieldset {
+    background-color: #ffffff;
+    border: 2px solid #0d6efd;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  legend {
+    font-size: 1.5em;
+    color: #0d6efd;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  .btn {
+    border-radius: 10px;
+  }/* Reset básico */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #343a40;
+}
+
+/* Barra de navegação estilizada */
+nav {
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilização do iframe */
+iframe {
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    iframe {
+        height: 400px;
+    }
+}
+
+  
+  .container {
+    max-width: 700px;
+  }
+  
